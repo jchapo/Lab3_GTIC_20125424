@@ -19,10 +19,7 @@ public class Estadio {
     private String nombre;
     @Column(name = "provincia",nullable = false)
     private String provincia;
-    @Column(name = "posicion",nullable = false)
-    private String posicion;
     @Column(name = "club",nullable = false)
     private String club;
-    @Column(name = "sn_idSeleccion",nullable = false)
-    private String sn_idSeleccion;
+
 }

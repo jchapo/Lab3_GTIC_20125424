@@ -22,5 +22,5 @@ public class Jugador {
     @Column(name = "club",nullable = false)
     private String club;
     @Column(name = "sn_idSeleccion",nullable = false)
-    private String sn_idSeleccion;
+    private Integer sn_idSeleccion;
 }

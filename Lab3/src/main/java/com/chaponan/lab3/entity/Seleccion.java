@@ -18,5 +18,5 @@ public class Seleccion {
     @Column(name = "tecnico",nullable = false)
     private String tecnico;
     @Column(name = "estadio_idEstadio",nullable = false)
-    private String estadio_idEstadio;
+    private Integer estadio_idEstadio;
 }

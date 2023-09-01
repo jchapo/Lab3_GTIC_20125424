@@ -39,7 +39,12 @@ public class JugadorController {
         if (optional.isPresent()) {
             jugadorRepository.deleteById(id);
         }
-
         return "redirect:/jugador/list";
+    }
+
+    @PostMapping("/guardar")
+    public String guardar(Jugador jugador) {
+        jugadorRepository.save(jugador);
+        return "redirect:/jugador/listar";
     }
 }

@@ -13,7 +13,6 @@ public class Jugador {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idJugador;
-
     @Column(name = "nombre",nullable = false)
     private String nombre;
     @Column(name = "edad",nullable = false)
